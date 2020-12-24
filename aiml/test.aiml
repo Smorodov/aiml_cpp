@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<meta name="author" content="Andrey"/> <meta name="language" content="Russian"/>
+
+    <category>
+        <pattern>
+            привет *
+        </pattern>
+        <template>
+            привет <star/>
+        </template>
+	</category>
+	
+	<category>
+        <pattern>
+            *
+        </pattern>
+        <template>
+            У меня нет на это ответа...
+        </template>
+    </category>
+	
+</aiml>
